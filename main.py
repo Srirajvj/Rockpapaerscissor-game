@@ -25,7 +25,7 @@ scissors = '''
 ---.__(___)
 '''
 import random
-x=int(input("Wgat do you choose? Type 0 for rock, 1 for paper and 2 for scissor "))
+x=int(input("Wgat do you choose? Type 0 for rock, 1 for paper and 2 for scissor\n "))
 y= random.randint(0, 2)
 if x==0:
     if y==0:
